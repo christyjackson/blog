@@ -1,0 +1,25 @@
+<div class="wrapper wrapper_padding clearfix">
+	<div class = "col-1 about homepage_content">
+	<h2>About</h2> 
+	<hr><p>My Name is Christy Jackson. I work for <a href="http://www.vit.ac.in/">VIT University Chennai Campus</a> as an Assistant Professor. I have been associated with VIT from 2013. </p> <p>I am also a part-time research student at VIT. I have few years of development experience before joining VIT as a teacher. I went to Zion school, tambaram, Chennai and then went on to do my Bachelors of Engineering in Computer Science at Karunya University, Coimbatore. Upon graduating I pursued my Post graduation at <a href="https://www.griffith.edu.au/">Griffith University, Brisbane, Australia.</a></p> <p>At the moment I am a part-time research student at VIT university Chennai Campus for my PhD. I have always had the interest in web development and learning latest technologies for UI/UX development, however my research area is vehicular ad-hoc networks. I work closely with evolutionary algorithms for vehicular ad-hoc networks.</p>
+</div>
+	<div class = "col-2 homepage_content"> 
+		<h2>Stuff I've Written</h2>
+		<hr>
+		<%@posts.each do |post| %>
+		<h3><a href = "#"><%= link_to post.title, post %></a></h3>
+		<p class = "date"><%= post.created_at.strftime("%A, %b %d")%></p>
+		<% end %>
+		
+	</div>
+	<div class = "col-3 homepage_content"> 
+
+		<h2>Projects</h2>
+		<hr>
+		<h3><a href="#">Adhoc Networks</a></h3>
+		<p class="date">Wednesday December 9th</p>
+		<h3><a href="#">ISBCC</a></h3>
+		<p class="date">Wednesday December 9th</p>
+		<h3><a href="#">Vehicular AdHoc Networks</a></h3>
+		<p class="date">Wednesday December 9th</p></div>
+</div>
