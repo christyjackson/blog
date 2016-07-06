@@ -14,12 +14,8 @@
 	</div>
 	<div class = "col-3 homepage_content"> 
 
-		<h2>Projects</h2>
-		<hr>
-		<h3><a href="#">Adhoc Networks</a></h3>
-		<p class="date">Wednesday December 9th</p>
-		<h3><a href="#">ISBCC</a></h3>
-		<p class="date">Wednesday December 9th</p>
-		<h3><a href="#">Vehicular AdHoc Networks</a></h3>
-		<p class="date">Wednesday December 9th</p></div>
+		<%@projects.each do |project| %>
+		<h3><a href = "#"><%= link_to project.title, project %></a></h3>
+		<p class = "date"><%= project.created_at.strftime("%A, %b %d")%></p>
+		<% end %>
 </div>

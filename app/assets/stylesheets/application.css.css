@@ -1,3 +1,7 @@
+@import url(D:/Blog using rails/blog/blog/app/assets/stylesheets/normalize.css);
+@import url(D:/Blog using rails/blog/blog/app/assets/stylesheets/welcome.css);
+@import url(D:/Blog using rails/blog/blog/app/assets/stylesheets/posts_projects.css);
+@import url(D:/Blog using rails/blog/blog/app/assets/stylesheets/pygments.css);
 * {
   box-sizing: border-box;
 }
@@ -144,7 +148,7 @@ input[type="text"], input[type="email"], input[type="password"], textarea {
   height: 3em;
   border: 2px solid #E9E9E9;
   padding: 1em;
-  margin: 0.5em 0 2em 0;
+  margin: .5em 0 2em 0;
 }
 
 textarea {
@@ -165,4 +169,16 @@ input[type="submit"], .button {
 input[type="submit"]:hover, .button:hover {
   border: 2px solid #8bc6db;
   color: #8bc6db;
+}
+
+.project_button {
+  background: #8bc6db;
+  color: FFFFFF;
+  text-decoration: none;
+  padding: 1em 2em;
+}
+
+.button_wrapper {
+  margin: 4em 0 0 0;
+  text-align: center;
 }
