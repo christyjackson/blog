@@ -1,5 +1,5 @@
 
-@import "D:/Blog using rails/blog/blog/app/assets/stylesheets/normalize.css";
+@import "D:/Blog using rails/blog/blog/app/assets/stylesheets/_normalize.css.scss";
 $dark: #434652;
 $light: #9a9da4;
 $highlight: #8bc6db;
@@ -172,6 +172,6 @@ body{
  margin:4em 0 0 0;
  text-align: center;
  }
-@import 'D:/Blog using rails/blog/blog/app/assets/stylesheets/welcome.css';
-@import 'D:/Blog using rails/blog/blog/app/assets/stylesheets/posts_projects.css';
-@import 'D:/Blog using rails/blog/blog/app/assets/stylesheets/pygments.css';
+@import "D:/Blog using rails/blog/blog/app/assets/stylesheets/_welcome.css.scss";
+@import 'D:/Blog using rails/blog/blog/app/assets/stylesheets/_posts_projects.css.scss';
+@import 'D:/Blog using rails/blog/blog/app/assets/stylesheets/pygments.css.scss';
