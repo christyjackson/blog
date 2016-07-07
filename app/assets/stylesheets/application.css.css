@@ -575,7 +575,7 @@ input[type="submit"]:hover, .button:hover {
 
 .project_button {
   background: #8bc6db;
-  color: FFFFFF;
+  color: white;
   text-decoration: none;
   padding: 1em 2em;
 }
