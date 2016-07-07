@@ -1,5 +1,5 @@
-@import 'normalize';
 
+@import "D:/Blog using rails/blog/blog/app/assets/stylesheets/_normalize.css.scss";
 $dark: #434652;
 $light: #9a9da4;
 $highlight: #8bc6db;
@@ -160,6 +160,18 @@ body{
  color: $highlight;
  }
  }
-@import 'welcome';
-@import 'posts_projects';
-@import 'pygments';
+
+ .project_button {
+ background: $highlight;
+ color: white;
+ text-decoration: none;
+ padding: 1em 2em;
+ }
+
+ .button_wrapper {
+ margin:4em 0 0 0;
+ text-align: center;
+ }
+@import "D:/Blog using rails/blog/blog/app/assets/stylesheets/_welcome.css.scss";
+@import 'D:/Blog using rails/blog/blog/app/assets/stylesheets/_posts_projects.css.scss';
+@import 'D:/Blog using rails/blog/blog/app/assets/stylesheets/pygments.css.scss';
