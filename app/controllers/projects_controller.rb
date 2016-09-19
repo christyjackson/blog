@@ -25,7 +25,7 @@ class ProjectsController < ApplicationController
 	def edit
 	end
 
-	def update
+	def update 
 		if @project.update project_params
 			redirect_to @project,notice: "Nice Jackson! That project was succesfully updated."
 		else
